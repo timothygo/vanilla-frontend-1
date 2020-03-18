@@ -11,3 +11,48 @@
 
   padding: 7rem 10%;
 }
+
+.btn-hover:hover {
+  cursor: pointer;
+  animation-name: hover-anim;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.action-btn {
+  border: none;
+  outline: none;
+  background: none;
+  text-decoration: none;
+
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.3rem;
+
+  padding: 1.5rem 4rem;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  transition: all 300ms;
+  text-transform: lowercase;
+}
+
+.action-btn:hover {
+  cursor: pointer;
+
+  background-color: rgb(175, 175, 175);
+}
+
+@keyframes hover-anim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

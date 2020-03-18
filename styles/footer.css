@@ -1,5 +1,23 @@
 .footer-container {
+  display: flex;
+  align-items: center;
 }
 
 .socials-container {
+  display: flex;
+  align-items: center;
+}
+
+.socials-container > *:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.social-icon {
+  display: block;
+  width: 3.3rem;
+  height: 3.3rem;
+}
+
+.social-icon > img {
+  width: 100%;
 }

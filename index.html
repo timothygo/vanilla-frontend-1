@@ -5,39 +5,58 @@
     <link rel="stylesheet" type="text/css" href="./styles/header.css" />
     <link rel="stylesheet" type="text/css" href="./styles/main.css" />
     <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/page-anim.css" />
     <title>Tutorial</title>
   </head>
   <body>
     <div class="container">
-      <header class="header-container">
-        <span class="logo">SS</span>
+      <header class="header-container slide-down">
+        <span class="logo">Succus</span>
         <nav class="nav-container">
-          <a href="" class="nav-link">home</a>
-          <a href="" class="nav-link">products</a>
-          <a href="" class="nav-link">vision</a>
-          <span class="cart-btn">
+          <a href="#" class="nav-link">home</a>
+          <a href="#" class="nav-link">products</a>
+          <a href="#" class="nav-link">vision</a>
+          <span class="cart-btn btn-hover">
             <img src="assets/icons/cart.png" />
           </span>
         </nav>
       </header>
-      <main class="main-container">
+      <main class="main-container slide-right delay-200">
         <section class="headline-container">
-          <h1>Succulents.</h1>
-          <p>fresh / juicy /</p>
-          <button>Order Now</button>
+          <h1 class="headline">Succulents.</h1>
+          <p class="sub-headline">minimal / fresh / juicy /</p>
+          <a href="#" class="action-btn">Order Now</a>
         </section>
       </main>
       <footer class="footer-container">
         <div class="socials-container">
-          <a href="https://www.google.com" target="_blank" class="social-icon">
-            <img src="./assets/icons/facebook.png" />
-          </a>
-          <a href="https://www.google.com" target="_blank" class="social-icon">
-            <img src="./assets/icons/twitter.png" />
-          </a>
-          <a href="https://www.google.com" target="_blank" class="social-icon">
-            <img src="./assets/icons/instagram.png" />
-          </a>
+          <div class="slide-right delay-800">
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              class="social-icon btn-hover"
+            >
+              <img src="./assets/icons/facebook.png" />
+            </a>
+          </div>
+          <div class="slide-right delay-600">
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              class="social-icon btn-hover"
+            >
+              <img src="./assets/icons/twitter.png" />
+            </a>
+          </div>
+          <div class="slide-right delay-400">
+            <a
+              href="https://www.google.com"
+              target="_blank"
+              class="social-icon btn-hover"
+            >
+              <img src="./assets/icons/instagram.png" />
+            </a>
+          </div>
         </div>
       </footer>
     </div>
